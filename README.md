@@ -55,13 +55,16 @@ sh eval_uq_gpt_4o.sh
 ```
 
 ## Results
-Jupyter notebooks, Results_v1(20250126).ipynb and Results_UQ_v1(20250126).ipynb, reproduce Figure 2 and Figure 6 from the manuscript. 
+Jupyter notebooks, Results_ALL_scireports(v20250327).ipynb contain latest version of Figures 2 and 6 and Supplementary Information.
+Jupyter notebooks, Results_v1(20250126).ipynb and Results_UQ_v1(20250126).ipynb are development versions. 
 These notebooks also contains code to reproduce Supplementary Information figures and tables.
 
 ## 🏆 Leaderboard (Model Cut-off Date 12/19/2024)
 | Model                          | Overall Accuracy |
 |--------------------------------|:----------------:|
+| DeepSeek-R1                    | 52.00           |
 | gemini-1.5-pro-latest          | 50.00           |
+| DeepSeek-V3                    | 49.00           |
 | o1-2024-12-17_200000           | 48.00           |
 | Llama-3.1-70B                  | 44.00           |
 | claude-3-opus                  | 38.00           |
@@ -72,11 +75,11 @@ These notebooks also contains code to reproduce Supplementary Information figure
 | gemini-1.5-flash-latest        | 28.00           |
 | gpt-4o                         | 25.00           |
 | Llama-3.1-8B                   | 23.00           |
-| Meditron3-8B                   | 23.00           |
 | Mistral-7Bv0.3                 | 20.00           |
 | gpt-4o-mini                    | 15.00           |
 | meditron-70B                   |  0.00           |
 | medalpaca-13B                  |  0.00           |
+| Meditron3-8B                   |  0.00           |
 
 For more details on various models and their accuracy across different subjects, please visit our [**Leaderboard**]().
 
