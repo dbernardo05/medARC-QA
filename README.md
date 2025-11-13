@@ -1,6 +1,6 @@
 # Medical Abstraction and Reasoning Corpus (MedARC-QA)
 
-[**📖 Paper**]() |
+[**📖 Paper**](https://www.nature.com/articles/s41598-025-22940-0) |
 
 This repo contains the evaluation code for the paper "[Limitations of Large Language Models in Medical Problem-Solving Arising from Inflexible Reasoning](https://www.nature.com/articles/s41598-025-22940-0)" Scientific Reports 2025.
 
