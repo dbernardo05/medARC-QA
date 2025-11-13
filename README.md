@@ -2,7 +2,7 @@
 
 [**📖 Paper**]() |
 
-This repo contains the evaluation code for the paper "[Limitations of Large Language Models in Medical Problem-Solving Arising from Inflexible Reasoning]()"
+This repo contains the evaluation code for the paper "[Limitations of Large Language Models in Medical Problem-Solving Arising from Inflexible Reasoning](https://www.nature.com/articles/s41598-025-22940-0)" Scientific Reports 2025.
 
 ## Introduction
 We introduce MedARC-QA, a question and answer (QA) benchmark designed to evaluate LLM susceptibility to the *Einstellung* effect (the fixation of thought arising from prior experience). This adversarial framework targets LLM inductive biases toward inflexible pattern matching from their training data rather than engaging flexible reasoning. Our results show that a LLMs show poor performance on MedARC-QA contrasting with findings on conventional medical QA (e.g. USMLE). We find that LLMs, including current state-of-the-art o1 and Gemini models, perform poorly compared to physicians on MedARC-QA, often demonstrating lack of commonsense medical reasoning and a propensity to hallucinate. In addition, uncertainty estimation analyses indicate that LLMs exhibit overconfidence in their answers, despite their limited accuracy. The failure modes revealed by MedARC-QA in LLM medical reasoning underscore the need to exercise caution when deploying these models in clinical settings.
@@ -87,6 +87,7 @@ For more details on various models and their accuracy across different subjects,
 - Danilo Bernardo: dbernardoj@gmail.com
 
 ## Citation
+Kim, J., Podlasek, A., Shidara, K. et al. Limitations of large language models in clinical problem-solving arising from inflexible reasoning. Sci Rep 15, 39426 (2025). https://doi.org/10.1038/s41598-025-22940-0
 
 **BibTeX:**
 ```bibtex
